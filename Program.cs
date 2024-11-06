@@ -10,3 +10,6 @@ for (int i = 3; i < 23; i++)
         Console.Write(i + ", ");
     }
 }
+Console.WriteLine();
+Amebs amebs = new Amebs();
+Console.WriteLine(amebs.CountTime(8));
